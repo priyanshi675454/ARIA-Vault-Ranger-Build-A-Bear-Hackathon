@@ -1,0 +1,9 @@
+{
+  "preset": "ts-jest",
+  "testEnvironment": "node",
+  "testMatch": ["**/tests/**/*.test.ts"],
+  "moduleFileExtensions": ["ts", "js", "json"],
+  "transform": { "^.+\\.ts$": "ts-jest" },
+  "setupFiles": [],
+  "testTimeout": 15000
+}

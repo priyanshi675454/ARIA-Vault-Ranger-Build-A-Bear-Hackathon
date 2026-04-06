@@ -1,0 +1,52 @@
+{
+  "simulatedAt": "2026-04-06T14:29:04.587Z",
+  "mode": "dry-run",
+  "liveApys": {
+    "Kamino Lending": 0.09,
+    "MarginFi Lending": 0.085,
+    "Save (Solend)": 0.075,
+    "Basis Trade": 0
+  },
+  "riskScores": {
+    "1": 13,
+    "2": 13,
+    "3": 13,
+    "4": 30
+  },
+  "allocations": [
+    {
+      "protocolId": 1,
+      "protocolName": "Kamino Lending",
+      "weightBps": 2559,
+      "minApyBps": 1000,
+      "currentApy": 0.1,
+      "riskScore": 13
+    },
+    {
+      "protocolId": 2,
+      "protocolName": "MarginFi Lending",
+      "weightBps": 2303,
+      "minApyBps": 1000,
+      "currentApy": 0.09,
+      "riskScore": 13
+    },
+    {
+      "protocolId": 3,
+      "protocolName": "Save (Solend)",
+      "weightBps": 2047,
+      "minApyBps": 1000,
+      "currentApy": 0.08,
+      "riskScore": 13
+    },
+    {
+      "protocolId": 4,
+      "protocolName": "Basis Trade",
+      "weightBps": 3091,
+      "minApyBps": 1000,
+      "currentApy": 0.15,
+      "riskScore": 30
+    }
+  ],
+  "blendedApy": 0.10905799999999999,
+  "meetsMinimum": true
+}

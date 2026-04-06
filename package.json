@@ -1,0 +1,32 @@
+{
+  "name": "aria-vault",
+  "version": "1.0.0",
+  "description": "ARIA - Adaptive Risk-weighted Intelligence Allocator | Ranger Build-A-Bear Hackathon",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/src/vault/index.js",
+    "dev": "ts-node src/vault/index.ts",
+    "oracle": "ts-node src/oracle/risk-oracle.ts",
+    "backtest": "ts-node scripts/backtest.ts",
+    "simulate": "ts-node scripts/simulate.ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.30.0",
+    "@solana/spl-token": "^0.4.6",
+    "@solana/web3.js": "^1.95.0",
+    "axios": "^1.7.2",
+    "bn.js": "^5.2.1",
+    "bs58": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "winston": "^3.13.0",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.5",
+    "@types/node": "^20.14.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

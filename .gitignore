@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+*.log
+__pycache__/
+*.pyc
+ai-engine/venv/
+ai-engine/models/*.pkl
+ai-engine/.env
+.DS_Store
+*.key
