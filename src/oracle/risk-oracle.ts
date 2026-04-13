@@ -69,8 +69,8 @@ export class RiskOracleClient {
   constructor() {
     this.connection = getConnection();
     this.wallet = loadWallet();
-    const addr = process.env.RISK_SCORE_ACCOUNT;
-    this.riskScoreAccount = addr ? new PublicKey(addr) : null;
+    const addr = process.env.RISK_SCORE_ACCOUNT?.trim();
+    this.riskScoreAccount = addr && addr.length > 30 ? new PublicKey(addr) : null;
   }
 
   // ── Compute and publish risk scores for all protocols ────────────────────
